@@ -18,7 +18,7 @@ entries:
           url: https://www.jenkins.io/
     apiVersion: v2
     appVersion: 2.332.2
-    created: "2022-04-21T14:43:37.548586122+03:00"
+    created: "2022-07-13T17:59:18.050300406+03:00"
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
@@ -47,10 +47,10 @@ entries:
     version: 3.11.10
   nexus-repository-manager:
   - apiVersion: v2
-    appVersion: 3.38.1
-    created: "2022-04-21T14:43:37.550190286+03:00"
+    appVersion: 3.40.1
+    created: "2022-07-13T17:59:18.05227554+03:00"
     description: Sonatype Nexus Repository Manager - Universal Binary repository
-    digest: e9be92b1aebaeedeba495621113198253c6fd3bd8d3ec7c024f33aff854a7c4f
+    digest: c080cfb526102ac7fbcfccd7e483a593247b26c98d5b4c25a529f0c277a01c32
     home: https://www.sonatype.com/nexus-repository-oss
     icon: https://sonatype.github.io/helm3-charts/NexusRepo_Vertical.svg
     keywords:
@@ -72,6 +72,6 @@ entries:
     - https://github.com/sonatype/nexus-public
     type: application
     urls:
-    - nexus-repository-manager-38.1.0.tgz
-    version: 38.1.0
-generated: "2022-04-21T14:43:37.541507426+03:00"
+    - nexus-repository-manager-40.1.0.tgz
+    version: 40.1.0
+generated: "2022-07-13T17:59:18.044687287+03:00"
