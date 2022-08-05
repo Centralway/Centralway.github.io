@@ -18,7 +18,7 @@ entries:
           url: https://www.jenkins.io/
     apiVersion: v2
     appVersion: 2.332.2
-    created: "2022-07-13T17:59:18.050300406+03:00"
+    created: "2022-08-05T11:22:39.173198872+03:00"
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
@@ -48,7 +48,7 @@ entries:
   nexus-repository-manager:
   - apiVersion: v2
     appVersion: 3.40.1
-    created: "2022-07-13T17:59:18.05227554+03:00"
+    created: "2022-08-05T11:22:39.176095905+03:00"
     description: Sonatype Nexus Repository Manager - Universal Binary repository
     digest: c080cfb526102ac7fbcfccd7e483a593247b26c98d5b4c25a529f0c277a01c32
     home: https://www.sonatype.com/nexus-repository-oss
@@ -74,4 +74,18 @@ entries:
     urls:
     - nexus-repository-manager-40.1.0.tgz
     version: 40.1.0
-generated: "2022-07-13T17:59:18.044687287+03:00"
+  numbrs-backup:
+  - apiVersion: v2
+    created: "2022-08-05T11:22:39.177708007+03:00"
+    dependencies:
+    - name: numbrs-common
+      repository: '@numbrs'
+      version: ~0.4.0
+    description: backup to google cloud
+    digest: a656a03e806987d7ca851a8396bb831e5b852fa7ca5149d2e7348e04a09883a3
+    name: numbrs-backup
+    type: application
+    urls:
+    - numbrs-backup-1.4.0.tgz
+    version: 1.4.0
+generated: "2022-08-05T11:22:39.168651076+03:00"
